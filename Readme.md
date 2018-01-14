@@ -1,4 +1,4 @@
-# PowerHive PowerShell Module [![Build status](https://ci.appveyor.com/api/projects/status/fftqxp4cqegto2b3?svg=true)](https://ci.appveyor.com/project/pm091/PowerHive)
+# PowerHive PowerShell Module [![Build status](https://ci.appveyor.com/api/projects/status/ws4f5f9qojuowo5a?svg=true)](https://ci.appveyor.com/project/pm091/powerhive-tqwo4)
 
 
  PowerShell module for Hive British Gas API, control the hive home system from PowerShell
