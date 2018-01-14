@@ -1,0 +1,49 @@
+﻿TOPIC
+    about_powerhive
+
+SHORT DESCRIPTION
+    {{ Powershell Module to interface with the Hive V6.1 API }}
+
+LONG DESCRIPTION
+    {{ Powershell Module to interface with the Hive V6.1 API, Allowing control
+    over the hive home system with the PowerHive Module Functions. }}
+
+EXAMPLES
+    {{ Connect-Hive -Username useraccount@email
+    	Disconnect-Hive
+    	Get-HiveActiveLight
+    	Get-HiveActivePlug
+    	Get-HiveThermometer
+    	Get-HiveChannels
+    	Get-HiveContacts
+    	Get-HiveDevice 	Get-HiveDevice -Detailed
+    	Get-HiveEvents
+    	Get-HiveReceiver
+    	Get-HiveTemperature
+    	Get-HiveThermometer
+    	Get-HiveToplogy
+    	Get-HiveUser -Detailed
+    	Remove-HiveContact -ID ccac1d4b-6a1b-4011-81f5-e67c1c817ba3 -Confirm:$false
+    	Set-HiveActiveLight -ActiveLightID $ID -PowerState OFF
+    	Set-HiveActiveLight -ActiveLightID $ID -ColourMode TUNABLE -ColourTemperature 1200
+    	Set-HiveActiveLight -ActiveLightID $ID -ColourMode COLOUR -Hue 255
+    	Set-HiveActivePlug -ActivePlugID 7bf977c0-93ba-4a58-a78a-1ef0d317dd1b -PowerState OFF
+    	Set-HiveBoost -Thermostat $ID -Time 120 -Temperature 22
+    	Set-HiveContact -Name "Contact Name" -Email "Contact@email"
+    	Set-HiveThermometer -Thermostat $ID -Temperature 22 }}
+
+TROUBLESHOOTING NOTE
+    {{ https://github.com/pm091/PowerHive/issues }}
+
+SEE ALSO
+    {{
+ [smartofthehome](http://www.smartofthehome.com/2016/05/hive-rest-api-v6/)
+
+[lwsrbrts/PoSHive](https://github.com/lwsrbrts/PoSHive)
+
+[ukbendavies/PoshHive](https://github.com/ukbendavies/PoshHive)
+
+    }}
+
+
+
